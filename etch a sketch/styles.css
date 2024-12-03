@@ -1,0 +1,18 @@
+/* Flex container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px; /* Total width of the grid */
+  height: 640px; /* Total height of the grid */
+  margin: 0 auto;
+  border: 2px solid #333; /* Outer border for the grid */
+}
+
+/* Individual cells */
+.flex-container div {
+  width: 20px; /* Each cell's width */
+  height: 20px; /* Each cell's height */
+  border: 1px solid #ccc; /* Cell borders */
+  box-sizing: border-box;
+  background-color: white; /* Ensures borders are included in the dimensions */
+}
