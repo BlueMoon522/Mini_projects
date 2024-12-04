@@ -19,7 +19,7 @@
 .flex-container div {
   width: calc(100% / 20); /* Each cell's width */
   height: calc(100% / 20); /* Each cell's height */
-  border: 1px solid #ccc; /* Cell borders */
+  border: 1px solid #9b9b9b; /* Cell borders */
   box-sizing: border-box;
   background-color: white; /* Ensures borders are included in the dimensions */
 }
@@ -35,7 +35,10 @@
 
 .buttonRed,
 .buttonGreen,
-.buttonBlue {
+.buttonBlue,
+.buttonRand,
+.buttonFill,
+.disc {
   height: 30px;
   width: 400px;
   flex: 0; /* Ensure buttons only take up as much space as needed */
@@ -48,5 +51,14 @@
   background-color: green;
 }
 .buttonBlue {
-  background-color: blue;
+  background-color: rgb(62, 62, 139);
+}
+.buttonRand {
+  background-color: magenta;
+}
+.buttonFill {
+  background-color: white;
+}
+.disc {
+  background-color: white;
 }
