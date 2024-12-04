@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  justify-content: center;
+  /* border: solid; */
+  flex: 1;
+}
+
+/* Flex container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 420px; /* Total width of the grid */
+  height: 420px; /* Total height of the grid */
+  margin: 0 auto;
+  border: 2px solid #333; /* Outer border for the grid */
+}
+
+/* Individual cells */
+.flex-container div {
+  width: calc(100% / 20); /* Each cell's width */
+  height: calc(100% / 20); /* Each cell's height */
+  border: 1px solid #9b9b9b; /* Cell borders */
+  box-sizing: border-box;
+  background-color: white; /* Ensures borders are included in the dimensions */
+}

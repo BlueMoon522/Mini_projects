@@ -57,7 +57,6 @@ function setRandomColor() {
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
     if (button.classList.contains("buttonRed")) {
-      method = "mouseover";
       selectedColor = "red";
     } else if (button.classList.contains("buttonGreen")) {
       selectedColor = "green";
@@ -96,17 +95,3 @@ buttons.forEach((button) => {
     }
   });
 });
-
-// buttons.forEach((button) => {
-//   button.addEventListener("click", () => {
-//     for (let i = 0; i < 100; i++) {
-//       if (button.classList.contains("disc")) {
-//         const cells = container.querySelectorAll("div");
-//         cells.forEach((cell) => {
-//           selectedColor = setRandomColor();
-//           cell.style.backgroundColor = selectedColor;
-//         });
-//       }
-//     }
-//   });
-// });
